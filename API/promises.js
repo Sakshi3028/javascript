@@ -63,6 +63,15 @@ const response = await promiseFive
 }
 consumepromiseFive()
 
-async function getAllUsers(){
-    const response= await fetch ('')
-}
+// async function getAllUsers(){
+//     const response= await fetch ('')
+// }
+
+fetch('https://api.github.com/users/sakshi3028')
+.then((response)=>{
+    return response.json()
+})
+.then((data) => {
+
+})
+.catch((error) => console.log(error))
