@@ -62,3 +62,7 @@ const response = await promiseFive
 }   
 }
 consumepromiseFive()
+
+async function getAllUsers(){
+    const response= await fetch ('')
+}
